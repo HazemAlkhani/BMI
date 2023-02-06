@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="432.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bmi.BMIController">
+   <children>
+      <DatePicker layoutX="452.0" layoutY="45.0" prefHeight="25.0" prefWidth="134.0" />
+      <CheckBox layoutX="57.0" layoutY="153.0" mnemonicParsing="false" text="Mænd" />
+      <CheckBox layoutX="141.0" layoutY="153.0" mnemonicParsing="false" text="Kvinder" />
+      <Text layoutX="16.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Køn" wrappingWidth="57.01718750000009" />
+      <Text layoutX="10.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Navn :" wrappingWidth="57.01718750000009" />
+      <Text layoutX="16.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Højde :" />
+      <Text layoutX="16.0" layoutY="254.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vægt :" />
+      <Button layoutX="6.0" layoutY="269.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="122.0" text="Beregn">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <Button layoutX="171.0" layoutY="269.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="52.0" text="Ryd" />
+      <Text layoutX="10.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BMI Beregner" textAlignment="JUSTIFY" wrappingWidth="198.4410400390625">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font>
+      </Text>
+      <TextField layoutX="429.0" layoutY="324.0" prefHeight="25.0" prefWidth="134.0" />
+      <TextField layoutX="57.0" layoutY="199.0" prefHeight="25.0" prefWidth="109.0" />
+      <TextField layoutX="57.0" layoutY="237.0" prefHeight="25.0" prefWidth="109.0" />
+      <Text layoutX="171.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CM" wrappingWidth="57.01718750000009" />
+      <Text layoutX="171.0" layoutY="254.0" strokeType="OUTSIDE" strokeWidth="0.0" text="KG" wrappingWidth="57.01718750000009" />
+      <Text layoutX="131.0" layoutY="342.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BMI" wrappingWidth="57.01718750000009">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <TextField layoutX="13.0" layoutY="324.0" prefHeight="25.0" prefWidth="109.0" />
+      <TextField layoutX="5.0" layoutY="356.0" prefHeight="69.0" prefWidth="592.0" />
+      <Text layoutX="10.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Alder :" wrappingWidth="57.01718750000009" />
+      <TextField layoutX="51.0" layoutY="80.0" prefHeight="25.0" prefWidth="38.0" />
+      <Text layoutX="95.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="År" wrappingWidth="52.0" />
+      <Text layoutX="239.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID :" wrappingWidth="34.458984375" />
+      <TextField layoutX="263.0" layoutY="45.0" prefHeight="25.0" prefWidth="52.0" />
+      <Text layoutX="332.0" layoutY="342.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gennemsnittet :" />
+      <TextField layoutX="47.0" layoutY="45.0" prefHeight="25.0" prefWidth="134.0" />
+   </children>
+</Pane>
